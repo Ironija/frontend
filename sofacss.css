@@ -1,0 +1,75 @@
+/*Base*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*pradzia*/
+
+.container{
+	width: 90%;
+	margin: 50px auto;
+	padding: 10px;
+}
+
+header div{
+	width: 90%;
+	margin: auto;
+}
+
+div img{
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+h1{
+	text-align: center;
+}
+
+section div p{
+	border-top: thick double #eee;
+	border-bottom: thick double #eee;
+	text-align: center;
+}
+
+/*pagrindinis*/
+
+main .container{
+	width: 90%;
+}
+
+article{
+	display: inline-block;
+	margin: auto;
+	width: 22.5%;
+}
+
+h3 p{
+	text-align: justify;
+}
+
+.fa-angle-double-right{
+	color: #6b6f75;
+}
+
+/*pabaiga*/
+
+footer{
+	width: 90%;
+}
+
+footer img{
+	display: inline-block;
+	width: 3em;
+}
+
+footer p{
+	font-weight: bold;
+	text-align: center;
+}
+
+span{
+	color: #6b6f75;
+}
