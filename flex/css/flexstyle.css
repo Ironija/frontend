@@ -1,0 +1,100 @@
+/*Bendrieji nustatymai*/
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Pradža*/
+
+header{
+	background-color: #83daf7;
+}
+
+/*Teksto nustatymai*/
+
+p{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	line-height: 150px;
+}
+
+/*Vidurys*/
+
+.container{
+	margin: 0 auto;
+	background-color: #fff;
+	justify-content: space-between;
+}
+
+aside p:nth-of-type(1){
+	background-color: #fbc2fc;
+	height: 40%;
+}
+
+aside p:nth-of-type(2){
+	background-color: #56a845;
+	height: 60%
+}
+
+main p:nth-of-type(1){
+	background-color: #fac60a;
+	height: 65%;
+}
+
+main p:nth-of-type(2){
+	background-color: #969695;
+	height: 35%
+}
+
+section p:nth-of-type(1){
+	background-color: #00a658;
+}
+
+section p:nth-of-type(2){
+	background-color: #fa6bc3;
+}
+
+/*Tą pačią savybę turintys elementai*/
+
+html,body{
+	height: 100%;
+}
+
+.container, .wrapper, aside, main, section{
+	display: flex;
+}
+
+.container, aside, main{
+	flex-direction: column;
+	flex-flow: column;
+}
+
+main, section p:nth-of-type(1){
+	flex-grow: 4;
+}
+
+aside, section p:nth-of-type(2){
+	flex-grow: 1;
+}
+
+header, aside, aside p:nth-of-type(1), main, main p:nth-of-type(1), section{
+	margin-bottom: 10px;
+}
+
+aside, main{
+	min-height: 600px;
+}
+
+aside, section p:nth-of-type(1){
+	margin-right: 10px;
+}
+
+/*Pabaiga*/
+
+footer{
+	background-color: #f78914;
+}
